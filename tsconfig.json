@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",
+    "allowJs": true,                                /* Specify what module code is generated. */
+    "esModuleInterop": true,  
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "outDir": "./build",
+     /* Redirect output structure to the directory. */
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
