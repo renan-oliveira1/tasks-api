@@ -68,7 +68,14 @@ class UserService{
     }
 
     async findAll(){
-        const allUsers = this.repository.findAll()
+        const allUsers = (await this.repository.findAll())
+            .map((user) => {
+                return {
+                    id: user.id,
+                    username: user.username,
+                    email: user.email
+                }
+            })
 
         return allUsers
     }

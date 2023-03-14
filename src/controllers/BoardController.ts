@@ -11,7 +11,7 @@ class BoardController{
             return response.status(201).send(result)
             
         } catch (error) {
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -21,7 +21,7 @@ class BoardController{
             return response.status(201).send(result)
             
         } catch (error) {
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -32,7 +32,7 @@ class BoardController{
             return response.status(201).send(result)
             
         } catch (error) {
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -43,7 +43,7 @@ class BoardController{
             return response.status(201).send(result)
             
         } catch (error) {
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -55,7 +55,7 @@ class BoardController{
             return response.status(201).send(result)
             
         } catch (error) {
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -67,7 +67,7 @@ class BoardController{
             return response.status(201).send(result)
             
         } catch (error) {
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 

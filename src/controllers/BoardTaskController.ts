@@ -9,7 +9,7 @@ class BoardTaskController{
             const result = await boardTaskService.create(request.body)
             return response.status(201).send(result)
         }catch(error){
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -20,7 +20,7 @@ class BoardTaskController{
 
             return response.status(201).send(result)
         }catch(error){
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -31,7 +31,7 @@ class BoardTaskController{
 
             return response.status(201).send(result)
         }catch(error){
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -42,7 +42,7 @@ class BoardTaskController{
 
             return response.status(201).send(result)
         }catch(error){
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 
@@ -54,7 +54,7 @@ class BoardTaskController{
 
             return response.status(201).send(result)
         }catch(error){
-            return response.status(401).json(error)
+            return response.status(400).json(error)
         }
     }
 

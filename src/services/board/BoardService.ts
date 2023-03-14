@@ -21,6 +21,7 @@ class BoardService{
 
     async findById(id: string){
         const boardExists =  await this.repository.findById(id)
+        console.log(boardExists)
         if(!boardExists){
             throw new InvalidBoardError('Invalid board id!!')
         }
