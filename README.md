@@ -23,8 +23,8 @@ If you user de codes npm install o yarn install to use locally the api
 
 Register a user to the database and receive a token.
 
-<b>URL:</b> baseUrl + /user/register
-<b>METHOD:</b> POST
+<b>URL:</b> baseUrl + /user/register </br>
+<b>METHOD:</b> POST </br>
 <b>BODY REQUEST:</b>
 ```json
 {
@@ -49,8 +49,8 @@ Register a user to the database and receive a token.
 
 Login(receive a token).
 
-<b>URL:</b> baseUrl + /user/login
-<b>METHOD:</b> POST
+<b>URL:</b> baseUrl + /user/login </br>
+<b>METHOD:</b> POST </br>
 <b>BODY REQUEST:</b>
 ```json
 {
@@ -74,9 +74,9 @@ Login(receive a token).
 
 Create a task.
 
-<b>URL:</b> baseUrl + /tasks
-<b>METHOD:</b> POST
-<b>AUTHORIZATION BEARER:</b> Yes(token) 
+<b>URL:</b> baseUrl + /tasks </br>
+<b>METHOD:</b> POST </br>
+<b>AUTHORIZATION BEARER:</b> Yes(token)  </br>
 <b>BODY REQUEST:</b>
 ```json
 {
